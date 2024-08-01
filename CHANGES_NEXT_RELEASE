@@ -1,4 +1,4 @@
-- Add: openmetrics-compatible `/metrics/  endpoint in northbound API
+- Add: openmetrics-compatible `/metrics/` endpoint in northbound API
 - Remove: `config.stats` and stash push to log and database
 - Fix: service header to use uppercase in case of update and delete (#1528)
 - Fix: Allow to send to CB batch update for multimeasures for NGSI-LD (#1623)

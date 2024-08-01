@@ -249,7 +249,7 @@ iotagentLib.statsRegistry.add('statName', statIncrementalValue, callback);
 ```
 
 The first time this function is invoked, it will add the new stat to the registry. Subsequent calls will add the value
-to the specified stat. The stat will be cleared in each interval as usual.
+to the specified stat.
 
 Metrics collectors such as prometheus (or any other collector compatible with
 [openmetrics](https://github.com/OpenObservability/OpenMetrics/blob/main/specification/OpenMetrics.md) format) can
